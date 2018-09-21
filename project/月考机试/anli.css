@@ -1,0 +1,107 @@
+
+body{
+	font-size: 10px;
+}
+.navbar-default{
+	background-color:black;
+}
+.navbar-default .you{
+	float: right;
+	margin-right: 5%;
+	color: white;
+}
+#menu li a{
+	color: white;
+}
+.swiper-container img{
+	height: auto;
+	max-width: 100%;
+}
+.tu{
+	width: 78%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.tu .title{
+	width: 100%;
+
+}
+.tu .zsw{
+	max-width: 100%;
+	margin: 5% auto;
+}
+.tu .title h1,h5{
+	text-align: center;
+	font-size: 1.5rem;
+}
+.tu .twen{
+	max-width: 327px;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	margin-left: 1.5%;
+
+}
+
+.tu .twen .erweima{
+	display: none;
+	max-width: 327px;
+	height: auto;
+	background-color:rgb(55,41,33);
+	position: absolute;
+	transition: all 5s ease 0s;
+	top: 0;
+	left: 4%;
+}
+/*.tu .twen .erweima*/
+.tu .twen .erweima img{
+	max-width: 80%;
+	height: auto;
+	margin-left:10%;
+	
+}
+.tu .twen:hover .erweima{
+	transform: none;
+}
+.tu .twen .tupian img{
+	height: auto;
+	max-width: 100%;
+
+}
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+    padding-bottom: 30px;
+}
+footer ul li{
+    display: inline-block;
+}
+footer .m2 li{
+    margin:62px 30px 40px;
+    width: 120px;
+}
+footer ul li p{
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 10px;
+}
+footer ul:nth-child(2) li{
+    border-right: 1px solid #b6b6b6;
+}
+footer ul:nth-child(2) li:last-child{
+    border-right: none;
+}
+footer ul:nth-child(2) li a{
+    color:#b6b6b6;
+    padding: 0 16px;
+    font-size: 12px;
+}
+footer>p{
+    color:#6c6c6c;
+    font-size: 12px;
+}
+footer>p a{
+    font-size: 12px;
+    color: #b6b6b6;
+}
