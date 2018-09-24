@@ -1,4 +1,4 @@
-window.onload = function () {
+$(function(){
     function strFn(str, data) {
         return str.replace(/\@(\w+)\@/g, function (match, $1, index, string) {
             return data[$1];
@@ -10,4 +10,4 @@ window.onload = function () {
             $('#chanpin').append(strFn($('#chanpin_box').html(), data.data[i]));
         }
     })
-}
+})

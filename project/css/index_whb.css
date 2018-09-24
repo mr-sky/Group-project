@@ -2,6 +2,109 @@ body,html{
     width: 100%;
     height: 100%;
 }
+header {
+    background-color: #000;
+    height: 60px;
+  }
+  
+  header nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 250px;
+  }
+  
+  header nav ul {
+    height: 100%;
+    display: flex;
+  }
+  
+  header nav ul li {
+    height: 100%;
+    margin: 0 12px;
+    /* white-space: nowrap; */
+    line-height: 60px;
+    position: relative;
+  }
+  
+  header nav ul li ol {
+    position: absolute;
+    width: 836px;
+    display: none;
+    border-top: 1px solid #1dafec;
+    z-index: 10;
+    top: 60px;
+    left: -15px;
+    background-color: #000;
+  }
+  
+  header nav ul li ol li {
+    width: 180px;
+    height: 62px;
+    display: inline-block;
+  }
+  
+  header nav ul li ol li a {
+    width: 208px;
+    height: 62px;
+    color: #959595;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  
+  header nav ul li ol li a img {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+  }
+  
+  header nav ul li ol li a span {
+    color: #959595;
+    font-size: 13px;
+  }
+  
+  header nav ul li ol li a:hover span {
+    color: #fff;
+  }
+  
+  header nav ul li:hover ol {
+    display: block;
+  }
+  
+  header nav a {
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  header nav a:hover {
+    color: #1dafec;
+  }
+  
+  header nav div {
+    position: relative;
+    margin-right: 85px;
+  }
+  
+  header nav div span {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  header nav div div {
+    margin: 0;
+    width: 80px;
+    padding: 12px;
+    height: 110px;
+    position: absolute;
+    right: -100px;
+    top: -18px;
+    padding-top: 22px;
+    background-color: #222;
+  }
+  
 main{
     width: 100%;
     height: 100%;
@@ -51,6 +154,9 @@ main{
     }
     .dongtai h1{
         margin:75px auto 65px auto;
+    }
+    div.container{
+        width: 1600px;
     }
 }
 #slider{
@@ -154,6 +260,7 @@ footer{
 }
 footer ul li{
     display: inline-block;
+    vertical-align: top;
 }
 footer .m2 li{
     margin:62px 30px 40px;
@@ -191,7 +298,23 @@ footer>p a{
         margin-left: 15px;
         margin-right: 15px;
     }
-    
+    #module h1{
+        font-size: 14px;
+    }
+    #module h3{
+        font-size: 12px;
+    }
+    .first_list{
+        padding: 0 15px;
+    }
+}
+@media screen and (min-width: 640px){
+    #module h1{
+        font-size: 32px;
+    }
+    #module h3{
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 1024px){
     footer .m2 li{
@@ -199,4 +322,36 @@ footer>p a{
         width:15%;
     }
 
+}
+@media screen and (max-width: 767px){
+    main{
+        overflow: hidden;
+        padding-bottom: 70%;
+        height: 0;
+        position: relative;
+    }
+    .container{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+    }
+}
+#module .first_list ul li{
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+#module .first_list ul li .list-des{
+    padding: 20px;
+}
+#module .first_list ul li .list-des h4:nth-child(3){
+    margin-top: 17px;
+    line-height: 28px;
+    height: 28px;
+    overflow: hidden;
+}
+#module .first_list ul li .list-des p:nth-child(4){
+    height: 175px;
+    overflow: hidden;
 }
