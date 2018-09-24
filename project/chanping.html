@@ -50,12 +50,12 @@
         </li>
     </ul>
     <ul class="ft_b">
-            <li><a href="">首页</a></li>
-            <li><a href="">产品</a></li>
-            <li><a href="">案例</a></li>
-            <li><a href="">开发者中心</a></li>
-            <li><a href="">关于我们</a></li>
-            <li><a href="">加入我们</a></li>
+            <li><a href="index_whb.html">首页</a></li>
+            <li><a href="chanping.html">产品</a></li>
+            <li><a href="anli.html">案例</a></li>
+            <li><a href="lcn.html">开发者中心</a></li>
+            <li><a href="playable.html">关于我们</a></li>
+            <li><a href="WLH_solution.html">加入我们</a></li>
             <li style="border-right:none"><a href="">English</a></li>
     </ul>
     <p>
@@ -84,10 +84,11 @@
         constructor:Header,
         init:function(){
             var arr=["首页","产品","解决方案","开发者中心","案例","众包平台","教育","广告","区块实验室","社区","关于我们"]
+            var indexarr = ['index.html','chanping.html','anli.html','lcn.html','playtable.html','WLH_solution.html','#','#','#','#','#'];
             var menu=$("<ul class='menu'></ul>").appendTo($(".nav"));
             for(var i=0;i<arr.length;i++){
                 var lis=$("<li></li>").appendTo(menu);
-                $("<a>"+arr[i]+"</a>").appendTo(lis);
+                $("<a href='"+indexarr[i]+"'>"+arr[i]+"</a>").appendTo(lis);
             }
           $.get("json/nav.json",function(data){
               data = typeof data === "object" ? data : eval("(" + data + ")");
