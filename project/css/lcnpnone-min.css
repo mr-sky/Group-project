@@ -1,0 +1,57 @@
+.show-img1 .contain .img-max.anniu{
+    font-size: 14px;
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+}
+.show-img2 .rg-txt {
+    width: 100%;
+    text-align: left;
+    float: none;
+}
+
+.show-img2 .rg-txt ul {
+    /*overflow: hidden;*/
+    margin: 0 auto;
+    max-width: 400px;
+
+}
+.show-img2 .t_bg {
+    width: 70%;
+    float: none;
+
+}
+.show-img3 .contain .sdk {
+    width: 100%;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    float: none;
+}
+.show-img4 .contain .text{
+    text-align: left;
+    float: none;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.show-img2 .t_bg {
+    position: relative;
+    width: 70%;
+    float: none;
+}
+
+.show-img3 .contain .sdk-bg {
+    width: 70%;
+    position: relative;
+    text-align: right;
+    /*width: 40%;*/
+    float: none;
+    margin: 0 auto;
+}
+
+.show-img4 .contain img {
+    width: 70%;
+    float: left;
+    /*width: 40%;*/
+    float: none;
+}
