@@ -11,9 +11,36 @@
         <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
         <script src="js/MVC_whb.js"></script>
         <script src="js/index_whb.js"></script>
+        <script src="js/header.js"></script> 
     </head>
     <body>
-        <header></header>
+        <header>
+            <nav class="w">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li>
+                        <a href="#">产品</a>
+                        <ol id="chanpin"></ol>
+                    </li>
+                    <li><a href="#">解决方案</a></li>
+                    <li><a href="#">开发者中心</a></li>
+                    <li><a href="#">案例</a></li>
+                    <li><a href="#">众包平台</a></li>
+                    <li><a href="#">教育</a></li>
+                    <li><a href="#">广告</a></li>
+                    <li><a href="#">区块链实验室</a></li>
+                    <li><a href="#">社区</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+                <div>
+                    <span>
+                        <a href="#">中文</a> /
+                        <a href="#">English</a>
+                    </span>
+                    <div><img src="https://cdn.www.egret.com/official/new-egret/img/egret-nav-icon-2.png" alt="Logo"></div>
+                </div>
+            </nav>
+        </header>
         <main>
             <div class="container">
 
@@ -295,4 +322,12 @@
             </div>
         </li>
     </script>
+    <script type="text/template" id="chanpin_box">
+        <li>
+            <a href="#">
+                <img src="@img@" alt="">
+                <span>@text@</span>
+            </a>
+        </li>
+    </script>   
 </html>
