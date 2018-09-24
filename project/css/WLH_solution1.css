@@ -1,0 +1,326 @@
+img {
+  vertical-align: middle;
+}
+.footer {
+  background: #111;
+}
+@media screen and (max-width: 1140px) and (min-width: 320px) {
+  nav .title {
+    display: inline-block !important;
+    color: #fff;
+    text-align: left;
+    line-height: 55px;
+    padding-left: 12px;
+    width: 97%;
+  }
+  nav .title a {
+    float: right!important;
+    color: #fff;
+    margin-right: 20px;
+  }
+  nav .title a:nth-child(2) {
+    margin-right: 0;
+  }
+  nav img {
+    display: inline-block !important;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+  }
+  nav .menu {
+    display: none;
+    text-align: left;
+    height: auto;
+    position: relative;
+    z-index: 100;
+  }
+}
+@media screen and (max-width: 876px) {
+  .bg {
+    width: 100%;
+    height: 667px;
+    background: url(https://www.egret.com/themes_cn/simplebootx/Public/images/solution/mob_banner1.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 50px;
+  }
+  .bg .banner {
+    padding: 0 20px;
+  }
+  .bg .banner img {
+    display: none;
+  }
+  .bg .banner .fl {
+    float: none;
+  }
+  .bg .banner .img2 {
+    padding: 0 20px;
+  }
+  .bg .banner .img2 .txt {
+    font-size: 26px;
+    color: #fff;
+    padding-top: 35px;
+  }
+  .bg .banner .img2 .txt1 {
+    font-size: 15px;
+    color: #fff;
+    padding-top: 30px;
+  }
+  .bg .banner .psa {
+    margin-top: 35px;
+  }
+  .bg .banner .psa .open {
+    color: #fff;
+    padding: 10px 50px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    display: block;
+    margin: 10px 20px;
+    text-align: center;
+  }
+  .bg1 {
+    width: 100%;
+    padding-bottom: 25px;
+    background: #f2f8ff;
+    box-sizing: border-box;
+  }
+  .bg1 .container {
+    padding: 0 20px;
+  }
+  .bg1 .container .tit {
+    padding-top: 35px;
+    font-size: 26px;
+    color: #19164c;
+    text-align: left;
+  }
+  .bg1 .container .descrption {
+    margin-top: 20px;
+    opacity: 0.5;
+    font-size: 14px;
+    color: #19164c;
+    text-align: justify;
+    line-height: 21px;
+  }
+  .bg1 .container .fle .group {
+    width: 90%;
+    background: #ffffff;
+    box-shadow: 0 2px 9px 0 rgba(7, 48, 71, 0.1);
+    border-radius: 4px;
+    margin: 15px 23px;
+    text-align: left;
+    padding: 5px 0;
+  }
+  .bg1 .container .fle .group .icon img {
+    width: 62.5px;
+    height: 62.5px;
+  }
+  .bg1 .container .fle .group .name {
+    font-weight: 1000;
+    font-size: 16px;
+    color: #19164c;
+  }
+  .bg1 .container .fle .group .cont {
+    margin-left: 65px;
+    font-size: 12px;
+    margin-top: -20px;
+    color: #19164c;
+    opacity: 0.7;
+    padding-right: 16px;
+  }
+  .bg1 .open_btn {
+    display: none;
+  }
+  .bg2 .container {
+    display: none;
+  }
+  .bg2 img {
+    width: 100%;
+    height: auto;
+  }
+  .bg3 {
+    width: 100%;
+    background: #f2f8ff;
+    box-sizing: border-box;
+    padding-bottom: 65px;
+  }
+  .bg3 .container {
+    padding: 0 20px;
+  }
+  .bg3 .container .tit {
+    padding-top: 35px;
+    font-size: 26px;
+    color: #19164c;
+    text-align: left;
+  }
+  .bg3 .container .descrption {
+    margin-top: 20px;
+    opacity: 0.5;
+    font-size: 14px;
+    color: #19164c;
+    text-align: justify;
+    line-height: 21px;
+  }
+  .bg3 .container button {
+    text-align: center;
+    font-size: 20px;
+    color: #2e9ede;
+    border: 1px solid #2e9ede;
+    border-radius: 10px;
+    padding: 10px 20px 10px 50px;
+    width: 152px;
+    background: url(https://www.egret.com/themes_cn/simplebootx/Public/images/solution/chat.png) no-repeat 25px 17px;
+    background-size: 20px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+  .bg3 .container .fle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .bg3 .container .fle .fle_bg1,
+  .bg3 .container .fle .fle_bg2 {
+    width: 50%;
+    padding: 0 10px;
+  }
+  .bg3 .container .fle .fle_bg1 img,
+  .bg3 .container .fle .fle_bg2 img {
+    width: 100%;
+  }
+  .bg3 .container .fle .tip {
+    text-align: center;
+    width: 100%;
+  }
+  .bg3 .container .fle .tip ul li {
+    background: rgba(46, 158, 222, 0.17);
+    color: #19164c;
+    height: 40px;
+    margin-bottom: 19px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .bg3 .container .fle .tip img {
+    width: 110px;
+    margin-top: 25px;
+  }
+  .bg3 .container .fle .tip p {
+    opacity: 0.7;
+    font-size: 14px;
+    color: #19164c;
+    margin-bottom: 35px;
+  }
+  .bg3 .container .fle .tip a {
+    background: #2e9ede;
+    width: 80%;
+    padding: 10px 0;
+    margin: 10px auto;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .bg3 .container .fle .tip a span {
+    background: url(https://www.egret.com/themes_cn/simplebootx/Public/images/solution/github.png);
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: sub;
+  }
+  .bg3 .container .mt {
+    display: flex;
+    margin-top: 65px;
+    flex-wrap: wrap;
+  }
+  .bg3 .container .mt .fle_bg1,
+  .bg3 .container .mt .fle_bg2 {
+    width: 50%;
+  }
+  .bg3 .container .mt .fle_bg1 img,
+  .bg3 .container .mt .fle_bg2 img {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .bg3 .container .mt .left {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .bg3 .container .mt .left ul li {
+    background: rgba(46, 158, 222, 0.17);
+    color: #19164c;
+    height: 40px;
+    margin-bottom: 19px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .bg3 .container .mt .left img {
+    width: 110px;
+    margin-top: 25px;
+  }
+  .bg3 .container .mt .left p {
+    opacity: 0.7;
+    font-size: 14px;
+    color: #19164c;
+    margin-bottom: 35px;
+  }
+  .bg3 .container .mt .left a {
+    background: #2e9ede;
+    width: 80%;
+    padding: 10px 0;
+    margin: 10px auto;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .bg3 .container .mt .left a span {
+    background: url(https://www.egret.com/themes_cn/simplebootx/Public/images/solution/github.png);
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: sub;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer .footer_menu {
+    padding: 40px 0 14px;
+  }
+  .footer .footer_menu li {
+    display: none;
+  }
+  .footer p {
+    display: none;
+  }
+  .footer ol {
+    margin: 55px auto 0;
+    display: inline-block;
+  }
+  .footer .ewm {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .footer .ewm li {
+    text-align: center;
+    margin: 30px 10px 10px;
+    width: 15%;
+    display: inline-block;
+  }
+  .footer .ewm li img {
+    width: 80%;
+  }
+  .footer .ewm li p {
+    display: block;
+    color: #6c6c6c;
+    font-size: 12px;
+  }
+}
