@@ -1,0 +1,464 @@
+.des {
+  opacity: 0.7;
+  font-size: 1.14rem;
+  color: #19164c;
+  line-height: 1.71rem;
+  margin-top: 1.5rem;
+}
+nav,
+ul.menu {
+  height: 58px;
+  background-color: #1a1a1a;
+}
+@media screen and (min-width: 1141px) {
+  nav {
+    height: 58px;
+    background-color: #1a1a1a;
+  }
+  nav .title {
+    display: none;
+  }
+  nav img {
+    display: none;
+  }
+  nav .menu {
+    margin-left: 529px;
+  }
+  nav .menu li {
+    margin: 0 11px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 58px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  nav .menu li a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 58px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  nav .menu li a:hover {
+    color: #1dafec;
+  }
+  nav .menu .last a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 58px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    width: 120px;
+    border: none;
+    background: none;
+    right: 180px;
+    top: 0;
+  }
+  nav .menu .last .last {
+    right: 137px;
+  }
+  nav .menu .last .box {
+    z-index: 1000;
+    position: absolute;
+    height: 100px;
+    width: 78px;
+    border: 4px solid #272727;
+    background: #212121;
+    right: 4%;
+    text-align: center;
+    top: 0;
+  }
+  nav .menu .last .box img {
+    position: relative;
+    top: 18px;
+    vertical-align: middle;
+    display: inline;
+  }
+  .bg {
+    width: 100%;
+    height: 40rem;
+    background: linear-gradient(-135deg, #1a0b5c 0%, #7e3eff 100%);
+  }
+  .bg .banner {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .bg .banner .img1 {
+    float: right;
+    margin-top: 5rem;
+  }
+  .bg .banner .img1 img:nth-child(2) {
+    display: none;
+  }
+  .bg .banner .img2 {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .bg .banner .img2 .open {
+    display: inline-block;
+    width: 14.93rem;
+    height: 3.57rem;
+    text-align: center;
+    line-height: 3.57rem;
+    font-size: 1.71rem;
+    color: #fff;
+    border-radius: 0.57rem;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-top: 2.85rem;
+    margin-right: 2.14rem;
+    background-color: transparent;
+  }
+  .bg .banner .img2 .open:hover {
+    color: #6330d3;
+    border: 1px solid #fff;
+    background: #fff;
+  }
+  .bg .banner .psa {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+  }
+  .bg .banner .fl {
+    float: left;
+  }
+  .bg .banner .fl p {
+    margin: 0 0 10px;
+  }
+  .bg .banner .fl .txt {
+    font-size: 2.86rem;
+    line-height: 4rem;
+    color: #fff;
+    padding-top: 10rem;
+  }
+  .bg .banner .fl .txt1 {
+    font-size: 1.14rem;
+    color: #fff;
+    padding-top: 1.5rem;
+    line-height: 2.14rem;
+  }
+  .cener {
+    text-align: center;
+  }
+  .cener .open_btn {
+    background: #2e9ede;
+    display: inline-block;
+    width: 28.93rem;
+    height: 3.57rem;
+    text-align: center;
+    line-height: 3.57rem;
+    font-size: 1.71rem;
+    color: #fff;
+    border-radius: 0.57rem;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-top: 5.7rem;
+  }
+  .img2 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .bg1 {
+    width: 100%;
+    height: 67.79rem;
+    background: #f2f8ff;
+    box-sizing: border-box;
+    padding-top: 8.8rem;
+  }
+  .bg1 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .bg1 .container .tit {
+    font-size: 2.57rem;
+    color: #19164c;
+    letter-spacing: 0;
+    line-height: 3.57rem;
+  }
+  .bg1 .container .cener {
+    text-align: center;
+  }
+  .bg1 .container .descrption {
+    margin-top: 1.5rem;
+    opacity: 0.7;
+    font-size: 1.14rem;
+    color: #19164c;
+    letter-spacing: 0;
+    line-height: 1.71rem;
+  }
+  .bg1 .container .fle {
+    display: flex;
+    justify-content: space-around;
+  }
+  .bg1 .container .fle .group {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 25.57rem;
+    height: 28.21rem;
+    background: #fff;
+    box-shadow: 0 0.1rem 0.64rem 0 rgba(7, 48, 71, 0.1);
+    border-radius: 4px;
+    margin-top: 6.42rem;
+  }
+  .bg1 .container .fle .group .icon {
+    display: block;
+    margin-bottom: 1.5rem;
+    margin-top: 2.8rem;
+  }
+  .bg1 .container .fle .group .name {
+    font-size: 1.71rem;
+    color: #19164c;
+    letter-spacing: 0;
+    line-height: 2.5rem;
+  }
+  .bg1 .container .fle .group .cont {
+    width: auto;
+    max-width: 18rem;
+    margin: 0 auto;
+    opacity: 0.7;
+    font-size: 1.14rem;
+    color: #19164c;
+    letter-spacing: 0;
+    text-align: justify;
+    line-height: 1.71rem;
+    margin-top: 2.35rem;
+  }
+  .bg2 {
+    background: url(https://www.egret.com/themes_cn/simplebootx/Public/images/solution/M3_bg1.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 47.86rem;
+  }
+  .bg2 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .bg2 .container .title {
+    font-size: 2.86rem;
+    line-height: 4rem;
+    color: #fff;
+    padding-top: 10rem;
+    margin-bottom: 7rem;
+  }
+  .bg2 .app_img {
+    display: none;
+  }
+  .bg3 {
+    width: 100%;
+    background: #f2f8ff;
+    padding-top: 8.8rem;
+    padding-bottom: 13.57rem;
+  }
+  .bg3 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .bg3 .title {
+    font-size: 2.57rem;
+    color: #19164c;
+    line-height: 3.57rem;
+  }
+  .bg3 .descrption {
+    opacity: 0.7;
+    font-size: 1.14rem;
+    color: #19164c;
+    line-height: 1.71rem;
+    margin-top: 1.5rem;
+  }
+  .bg3 .btn {
+    text-align: center;
+    font-size: 16px;
+    color: #2e9ede;
+    border: 1px solid #2e9ede;
+    border-radius: 4px;
+    padding: 5px 7px 5px 34px;
+    margin: 0 auto;
+    width: 160px;
+    background: url(https://www.egret.com/themes_cn/simplebootx/Public/images/solution/chat.png) no-repeat 34px 8px;
+    cursor: pointer;
+    background-size: 20px;
+    margin: 35px auto 0;
+    display: block;
+  }
+  .bg3 .fle {
+    margin-top: 6.42rem;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .bg3 .fle .tip {
+    margin-left: 7rem;
+    display: inline-block;
+  }
+  .bg3 .fle .tip ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .bg3 .fle .tip ul li {
+    opacity: 0.7;
+    font-size: 1.14rem;
+    color: #19164c;
+    letter-spacing: 0;
+    line-height: 3.57rem;
+  }
+  .bg3 .fle .tip ul li span {
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+    background: #2e9ede;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  .bg3 .fle .tip img {
+    width: 13rem;
+  }
+  .bg3 .fle .tip p {
+    font-size: 1.14rem;
+    color: #19164c;
+    line-height: 1.57rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .bg3 .fle .tip a {
+    background: #2e9ede;
+    display: inline-block;
+    width: 15.86rem;
+    height: 3.57rem;
+    text-align: center;
+    line-height: 3.57rem;
+    font-size: 1.71rem;
+    color: #fff;
+    border-radius: 0.57rem;
+    text-decoration: none;
+    border: 1px solid #fff;
+  }
+  .bg3 .fle .tip a span {
+    vertical-align: text-top;
+    background: url(https://www.egret.com/themes_cn/simplebootx/Public/images/solution/github.png) 1px 2px no-repeat;
+    width: 30px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .bg3 .mt {
+    margin-top: 10rem;
+  }
+  .bg3 .mt .left {
+    order: -2;
+    margin-right: 7rem;
+  }
+  .bg3 .mt .left ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .bg3 .mt .left ul li {
+    opacity: 0.7;
+    font-size: 1.14rem;
+    color: #19164c;
+    letter-spacing: 0;
+    line-height: 3.57rem;
+  }
+  .bg3 .mt .left ul li span {
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+    background: #2e9ede;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  .bg3 .mt .left img {
+    width: 13rem;
+  }
+  .bg3 .mt .left p {
+    font-size: 1.14rem;
+    color: #19164c;
+    line-height: 1.57rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .bg3 .mt .left a {
+    background: #2e9ede;
+    display: inline-block;
+    width: 15.86rem;
+    height: 3.57rem;
+    text-align: center;
+    line-height: 3.57rem;
+    font-size: 1.71rem;
+    color: #fff;
+    border-radius: 0.57rem;
+    text-decoration: none;
+    border: 1px solid #fff;
+  }
+  .bg3 .mt .left a span {
+    vertical-align: text-top;
+    background: url(https://www.egret.com/themes_cn/simplebootx/Public/images/solution/github.png) 1px 2px no-repeat;
+    width: 30px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .footer {
+    overflow: hidden;
+    text-align: center;
+    background: #000;
+    width: 100%;
+    font-size: 12px;
+    margin: auto;
+    padding-bottom: 30px;
+    display: block;
+  }
+  .footer ol {
+    width: 80%;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    margin: 60px auto 0;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+  }
+  .footer ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .footer ul li p {
+    color: #6c6c6c;
+  }
+  .footer .ewm li {
+    display: inline-block;
+    margin: 62px 30px 40px;
+    color: #b6b6b6;
+    width: 119px;
+    vertical-align: top;
+  }
+  .footer .ewm li img {
+    width: 80%;
+  }
+  .footer .footer_menu {
+    padding: 15px 0 14px;
+  }
+  .footer .footer_menu li {
+    display: inline-block;
+    border-right: 1px solid #b6b6b6;
+  }
+  .footer .footer_menu li a {
+    padding: 0 16px;
+    color: #6b6b6b;
+  }
+  .footer p {
+    color: #6c6c6c;
+    font-size: 12px;
+  }
+  .footer p a {
+    color: #6b6b6b;
+  }
+}
