@@ -13,6 +13,19 @@
         <script src="js/index_whb.js"></script>
         <script src="js/header.js"></script> 
     </head>
+    <style>
+        #mnav{
+            display: none;
+        }
+        @media screen and (max-width:768px){
+            #mnav{
+                display: block;
+            }
+            header{
+                display: none;
+            }
+        }
+    </style>
     <body>
         <header>
             <nav class="w">
@@ -41,6 +54,36 @@
                 </div>
             </nav>
         </header>
+        <nav class="navbar navbar-default" role="navigation" class="daohang" style="z-index: 9999999" id="mnav"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+        
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <!-- <a class="navbar-brand" href="#">白鹭时代</a> -->
+            </div>
+            <div class="collapse navbar-collapse" id="menu" class="you" style="background-color: black;">
+                <ul class="nav navbar-nav">
+                    <li ><a href="index_whb.html">首页</a></li>
+                     <li><a href="chanping.html">产品</a></li>
+                    <li><a href="anli.html">解决方案</a></li>
+                    <li><a href="lcn.html">开发者中心</a></li>
+                    <li><a href="playable.html" class="active">案例</a></li>
+                    <li><a href="WLH_solution.html">众包平台</a></li>
+                    <li><a href="#">教育</a></li>
+                    <li><a href="#">广告</a></li>
+                    <li><a href="#">区块链实验室</a></li>
+                    <li><a href="#">社区</a></li>
+                    <li><a href="#">我们</a></li>
+                    <li><a href="#">中文 /English</a></li>
+                     <!-- <li><img src="img/1.png"></li> -->
+                   
+                </ul>
+            </div>
+        </nav>
         <main>
             <div class="container">
 
@@ -104,11 +147,11 @@
                 </div>
                 <!-- 轮播（Carousel）导航 -->
                 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="opacity:1;">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:aliceblue;"></span>
+                    <span class="glyphicon" aria-hidden="true" style="color:aliceblue;"></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="opacity:1;">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:aliceblue;"></span>
+                    <span class="glyphicon" aria-hidden="true" style="color:aliceblue;"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div> 
@@ -183,11 +226,11 @@
                 </div>
                 <!-- 轮播（Carousel）导航 -->
                 <a class="left carousel-control" href="#myCarousela" role="button" data-slide="prev" style="opacity:1;">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:#fff;"></span>
+                    <span class="glyphicon" aria-hidden="true" style="color:#fff;"></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="right carousel-control" href="#myCarousela" role="button" data-slide="next" style="opacity:1;">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:#fff;"></span>
+                    <span class="glyphicon" aria-hidden="true" style="color:#fff;"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div> 
