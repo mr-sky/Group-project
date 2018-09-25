@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+p {
+  line-height: 28px;
+  font-size: 15px;
+}
+.clearfix {
+  zoom: 1;
+}
+.clear {
+  clear: both;
+}
+body {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  background: #1a1a1a;
+  height: 58px;
+}
+.header .nav {
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+.header .nav .title {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 10%;
+  line-height: 55px;
+}
+.header .nav .title a {
+  color: #fff;
+  float: right;
+  font-size: 15px;
+}
+.header .nav .menu {
+  height: 58px;
+}
+.header .nav .menu li {
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  line-height: 58px;
+  margin: 0 16px;
+}
+.header .nav .menu li a {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 58px;
+  color: #fff;
+}
+.header .nav .btn {
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 25px;
+}
+.header .nav .logo {
+  display: block;
+  z-index: 1000;
+  position: absolute;
+  height: 100px;
+  width: 78px;
+  border: 4px solid #272727;
+  right: 4%;
+  top: 0;
+  text-align: center;
+  background: #212121;
+}
+.header .subnav {
+  width: 836px;
+  position: absolute;
+  border-top: 1px solid #1dafec;
+  z-index: 10;
+  display: none;
+  left: 32%;
+  top: 55px;
+  background: #000;
+}
+.header .subnav li {
+  width: 208px;
+  height: 62px;
+  color: #959595;
+  cursor: pointer;
+  text-align: left;
+  border-bottom: 1px solid #1c1c1c;
+  border-right: 1px solid #1c1c1c;
+  float: left;
+}
+.header .subnav li a {
+  color: #959595;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-decoration: none;
+}
+.header .subnav li a i {
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.header .subnav li a img {
+  vertical-align: middle;
+  margin: 0 10px;
+  width: 35px;
+  height: 34px;
+}
+.banner {
+  width: 100%;
+  height: 500px;
+}
+.banner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.main {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.main h2 {
+  padding: 112px 0 32px;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+.main p {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.main hr {
+  background: url(https://www.egret.com/img/products-hori-line.png) no-repeat center;
+  height: 34px;
+  margin-top: 54px;
+  border: none;
+}
+.main ul {
+  width: 1260px;
+  margin: auto;
+}
+.main ul li {
+  margin-top: 100px;
+}
+.main ul li .left {
+  float: left;
+  width: 86px;
+  text-align: center;
+  padding: 0 30px 30px 53px;
+}
+.main ul li .left span {
+  font-size: 14px;
+}
+.main ul li .right {
+  padding: 30px;
+  float: left;
+  border-left: 1px solid #a2a1a1;
+  margin-left: -1px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.main ul li .right p {
+  min-height: 90px;
+}
+.main ul li .right .btnlsit .generalBtn {
+  margin: 0 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.main ul li .right .btnlsit .generalBtn a {
+  border: 1px solid #00b7f9;
+  width: 97px;
+  height: 29px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  line-height: 29px;
+  cursor: pointer;
+  display: block;
+}
+.line {
+  margin: 0 0;
+  position: absolute;
+  width: 1px;
+  border: none;
+  left: 50px;
+  background: #a2a1a1;
+  top: 986px;
+  height: 1739px;
+  left: 958.5px;
+}
+@media screen and (win-width: 1174px) {
+  .header .nav .menu {
+    display: block;
+  }
+}
+@media screen and (max-width: 1174px) {
+  .header .nav .logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 1174px) and (min-width: 320px) {
+  .header {
+    position: fixed;
+  }
+  .header .nav {
+    width: 100%;
+    height: 55px;
+  }
+  .header .nav .title {
+    overflow: hidden;
+    float: left;
+    width: 90%;
+    text-align: left;
+    color: #fff;
+  }
+  .header .nav .title a {
+    float: right;
+  }
+  .header .nav .btn {
+    display: block;
+  }
+  .header .nav .menu {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    text-align: left;
+    z-index: 100;
+    width: 100%;
+    height: auto;
+    background: #212121;
+  }
+  .header .nav .menu li {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  .header .subnav {
+    display: none;
+  }
+  .banner {
+    background-image: none;
+    height: auto;
+    padding-top: 50px;
+  }
+  .main ul {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 320px) {
+  .main ul li {
+    padding-top: 40px;
+    margin-top: 0;
+  }
+  .main ul li .right .btnlsit {
+    justify-content: center;
+  }
+  .line {
+    display: none;
+  }
+  .footer .ft_b {
+    padding: 40px 0 14px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .li1 {
+    border: 1px solid #e2e2e2;
+    width: 49%;
+    height: 725px;
+    float: left;
+    border-radius: 1%;
+    margin-top: 14px;
+  }
+  .li2 {
+    float: right;
+  }
+  .main ul li .left img {
+    padding-bottom: 30px;
+  }
+  .main ul li .left span {
+    display: block;
+    height: 65px;
+  }
+  .main ul li .right {
+    border-left: 0px;
+  }
+  .main ul li .right p {
+    font-size: 12px;
+    display: block;
+    height: 240px;
+    line-height: 20px;
+  }
+  .main ul li .right .btnlsit {
+    text-align: center;
+  }
+  .main ul li .right .btnlsit a {
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    display: block;
+    margin: 10px 5px;
+    border: 1px solid #00b7f9;
+  }
+  .footer .ft_t {
+    width: 100%;
+    margin: 55px auto 0;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .main ul li .left {
+    padding-left: 30px;
+  }
+  .main ul li .right {
+    width: 297px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+  .main ul li .left {
+    padding: 20px 0;
+    float: initial;
+    border: none;
+    margin: auto;
+  }
+  .main ul li .right {
+    padding: 0 10% 30px;
+    width: auto;
+    float: initial;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .main ul li .left {
+    padding: 0 30px 30px;
+    float: initial;
+    border: none;
+    margin: auto;
+  }
+  .main ul li .right {
+    width: auto;
+  }
+  .main ul li .right p {
+    text-align: center;
+    word-break: break-all;
+    margin-bottom: 20px;
+    min-height: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .main ul li .right {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  footer {
+    height: auto;
+  }
+}
+.footer {
+  width: 100%;
+  margin: auto;
+  font-size: 12px;
+  background: #000;
+  text-align: center;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.footer .ft_t li {
+  width: 119px;
+  display: inline-block;
+  margin: 62px 30px 40px;
+  color: #b6b6b6;
+  vertical-align: top;
+}
+.footer .ft_t li img {
+  width: 80%;
+}
+.footer .ft_t li p {
+  font-size: 12px;
+  color: #6c6c6c;
+}
+.footer .ft_b {
+  padding: 15px 0 14px;
+}
+.footer .ft_b li {
+  display: inline-block;
+  border-right: 1px solid #b6b6b6;
+}
+.footer .ft_b li a {
+  padding: 0 16px;
+  color: #b6b6b6;
+  text-decoration: none;
+}
+.footer p {
+  color: #6c6c6c;
+  font-size: 12px;
+}
+.footer a {
+  color: #b6b6b6;
+  text-decoration: none;
+}
+.footer span {
+  color: #B5B5B5;
+}
+@media screen and (max-width: 1024px) {
+  .footer .ft_t li {
+    margin: 30px 10px 10px;
+    width: 15%;
+  }
+}
